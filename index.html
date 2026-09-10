@@ -1,591 +1,108 @@
- <!DOCTYPE html>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IPORTEC | Próteses e Órteses em Divinópolis - MG</title><meta name="description" content="Próteses e órteses personalizadas em Divinópolis - MG, com avaliação individual, soluções sob medida e acompanhamento profissional."><meta name="theme-color" content="#084a35"><meta name="robots" content="index,follow,max-image-preview:large"><meta name="format-detection" content="telephone=yes"><meta property="og:locale" content="pt_BR"><meta property="og:type" content="website"><meta property="og:site_name" content="IPORTEC Próteses e Órteses"><meta property="og:title" content="IPORTEC | Próteses e Órteses em Divinópolis - MG"><meta property="og:description" content="Próteses e órteses personalizadas em Divinópolis - MG, com avaliação individual, soluções sob medida e acompanhamento profissional."><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/png" href="assets/img/favicon-iportec.png"><link rel="preload" as="image" href="assets/img/hero-protese-v14.webp" fetchpriority="high"><link rel="stylesheet" href="assets/css/style.css"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "IPORTEC Próteses e Órteses",
+  "description": "Próteses e órteses personalizadas com atendimento em Divinópolis, Minas Gerais.",
+  "telephone": "+55 37 99160-0514",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Oeste de Minas, 40 - Centro",
+    "addressLocality": "Divinópolis",
+    "addressRegion": "MG",
+    "postalCode": "35500-022",
+    "addressCountry": "BR"
+  },
+  "sameAs": ["https://www.instagram.com/iportecortopediatecnica/"],
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"08:00","closes":"15:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday"],"opens":"08:00","closes":"17:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"08:00","closes":"17:00"}
+  ]
+}
+</script></head><body data-page="home"><a class="skipLink" href="#conteudo">Pular para o conteúdo</a><div id="header"></div><main id="conteudo">
 
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8"/>
-<link href="imagens/01.png" rel="icon" type="image/png"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-    IPORTEC - Orteses e Proteses
-    </title>
-<link href="style.css" rel="stylesheet">
-<style>
-    .aba { display: none; }
-      .ativa { display: block; }
-    </style>
-<meta content="IPORTEC-" name="author"/>
-<meta content="index, follow" name="robots"/>
-</link></head>
-<body>
-<div class="topo-site">
-<div class="topo-direita">
-<div class="redes-sociais">
-<a href="https://www.instagram.com/iportecortopediatecnica/" target="_blank" title="Instagram">
-<img alt="Instagram" src="imagens/instagram.png"/>
-</a>
-<a href="https://www.facebook.com/seupagina" target="_blank" title="Facebook">
-<img alt="Facebook" src="imagens/facebook.png"/>
-</a>
-<a href="https://wa.me/5537991600514" target="_blank" title="WhatsApp">
-<img alt="WhatsApp" src="imagens/whatsapp.png"/>
-</a>
-<a href="https://www.youtube.com/@seucanal" target="_blank" title="YouTube">
-<img alt="YouTube" src="imagens/youtube.png"/>
-</a>
-<a class="whatsapp-float" href="https://wa.me/5537991600514" rel="noopener noreferrer" target="_blank">
-<img alt="WhatsApp" height="40" src="imagens/whatsappfloat.png" width="40"/>
-</a>
-</div>
-</div>
-<img alt="Logo esquerda" class="topo-img" src="imagens/01.png">
-<div class="topo-centro">
-<!--<h1>
-      IPORTEC 
-      </h1>
-<h1>
-      ÓRTESES E PROTESES
-      </h1>/-->
-</div>
-</img>
-</div>
-<nav style="text-align: center;">
-<button class="botao-padrao" onclick="location.hash='inicio'">
-      Início
-    </button>
-<div class="dropdown" onmouseover="mostrarAba('aba-Produtos')">
-<button class="botao-padrao">
-      Produtos ▼
-      </button>
-<div class="dropdown-conteudo">
-<ul>
-<li onclick="toggleSubcategoria('Orteses')">
-        Orteses
-        </li>
-<li onclick="toggleSubcategoria('Proteses')">
-        Proteses
-        </li>
-</ul>
-</div>
-</div>
-<button class="botao-padrao" onclick="location.hash='galeria'">
-     Galeria
-    </button>
-<button class="botao-padrao" onclick="location.hash='depoimentos'">
-    Depoimentos
-    </button>
-<button class="botao-padrao" onclick="location.hash='contato'">
-      Contato
-    </button>
-<button class="botao-padrao" onclick="location.hash='quemsomos'">
-      Quem Somos
-    </button>
-</nav>
-<section class="aba ativa" id="aba-Início">
-<div class="carrossel-container">
-<div class="carrossel" id="carrossel">
-<img alt="Imagem 1" src="imagens/img1.jpg"/>
-<img alt="Imagem 2" src="imagens/img2.jpg"/>
-</div>
-</div>
-</section>
-<section class="aba" id="aba-Produtos">
-<div style="text-align: center;">
-<div style="text-align: center;">
-<div style="text-align: right; margin: 10px 40px;">
-<label for="filtroQtd">Exibir:</label>
-<select id="filtroQtd" onchange="filtrarQuantidade()">
-<option value="4">04</option>
-<option value="8">08</option>
-<option value="16">16</option>
-<option value="40">40</option>
-</select>
-    produtos por página
+<section class="hero14" aria-label="Apresentação IPORTEC">
+  <div class="hero14-inner">
+    <div class="hero14-copy">
+      <span class="tag">PRÓTESES E ÓRTESES PERSONALIZADAS EM DIVINÓPOLIS</span>
+      <h1>Mais movimento<br>para novas <em>conquistas.</em></h1>
+      <p>Próteses e órteses personalizadas, com tecnologia, avaliação individual e acompanhamento profissional para mais conforto, segurança e autonomia.</p>
+      <div class="hero14-actions">
+        <a class="btn whatsapp" href="#">Agendar uma avaliação →</a>
+        <a class="btn ghost" href="#solucoes">Conheça nossas soluções →</a>
+      </div>
+      <div class="hero14-benefits" aria-label="Diferenciais">
+        <span><b>●</b> Atendimento especializado</span>
+        <span><b>◆</b> Soluções personalizadas</span>
+        <span><b>♥</b> Mais conforto e autonomia</span>
+        <span><b>★</b> Compromisso com cada história</span>
+      </div>
     </div>
-<!-- CATEGORIAS DE PRODUTOS -->
-<div class="menu categoria-produto" id="categoria-Orteses" style="display: grid;">
-<!-- exemplo de card -->
-<div class="card">
-
-<img src="imagens/ortese 01.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese de sucção para pectus escavatum</h2>
-<p>Indicado para tratamento do pectus escavatum, Tracionar, dar mobilidade, flexibilizando e estimulando o local da deformidade.</p>
-<h2>Ref.:O001</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 03.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese tóraco-lombo-sacro</h2>
-<p>Conhecida como TLSO, OTLS ou Boston, é indicado para estavilizar, imobilizar ou corrigir a coluna vertebral em graturas torácica ou lombar, pós cirúgico e correção de escoliose, hipercifose ou hiperlordose.</p>
-<p>Sob medida.</p>
-<h2>Ref.:O002</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 02.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Compressor dinâmico torácico</h2>
-<p>Indicado no tratamento de deformidades no tórax conhecida como pectus carinatum ou peito de pombo em adolescentes que estão em fase de formação corporal.</p>
-<p>Sob medida.</p>
-<h2>Ref.:O003</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 04.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Colete Cervical OCT</h2>
-<p>Colete cervico torácico, indicado para fraturas na região cervico-toráxica e no pós cirúrgico.</p>
-<p>Sob medida.</p>
-<h2>Ref.:O004</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 05.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Colete Knight Taylor</h2>
-<p>Indicado para estabilização e imobilização da coluna tóraco-lombo-sacro, artroses, pós operatório de estabilização da coluna vertebral e cirurgia de disco, osteoporose, processos inflamatório, traumatismo, hérnia de disco, escolioses, fraturas osteoporóticas, lesões musculares graves, dor lombar crônicas, instabilidade espinhal e torácica, espondilositese em caso de degeneração, graturas e achatamento vertebral.</p>
-<p>Sob medida</p>
-<h2>Ref.:O005</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 06.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Colete cervico-toroco-lombar-sacro (OCTLS)</h2>
-<p>Indicado para imobilização total da coluna vertebral em casos de fraturas múltiplas e no pós cirúrgico.</p>
-<p>Sob medida</p>
-<h2>Ref.:O006</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 07.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Colete 3d (Rigo Cheneau)</h2>
-<p>Indicado para tratar a escoliose de forma conservadora, levando em consideração que a escoliose é uma deformidade tridimensional, aplicando forças externas sobre o tronco de forma a gerar o alinhamento vertebral.</p>
-<p>Sob medida</p>
-<h2>Ref.:O007</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 08.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Colete Jewett</h2>
-<p>Indicado para fraturas de compressão, osteoporose, artrites vertebrais, epifisites, osteocondrites e posturas cifóticas.</p>
-<p>Sob medida</p>
-<h2>Ref.:O008</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 09.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Extensor de cotovelos - tipo Polaina</h2>
-<p>Confeccionada sob medida em tecido acolchoado e hastes rígidas, utilizadas para manter os membros superiores em extensão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O009</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 10.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Extensor e Flexor dinâmico para cotovelo (Tala de Shade)</h2>
-<p>Indicado para tratamento de contraturas no cotovelo de forma dinâmica, exercendo força constante sobre o cotovelo obrigando a extensão ou a flexão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O010</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 11.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Tala para dedos</h2>
-<p>Estáticas ou dinâmicas tipo gafanhoto, são indicadas para entorses, fraturas, luxações,ruptura de tendões, artroses, artrites, dedos em martelo, dedo em botoeira, dedo em pescoço de cisne, dedo em gatilhos,etc.</p>
-<p>Sob medida</p>
-<h2>Ref.:O011</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 12.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese Splint estático (Palmar/Tala)</h2>
-<p>Os splints estáticos de posicionamento ou funcionais são indicados para fraturas, tenossinovite de Quervain, entorses, contusões, artroses, redução articulares na artrite reumatóide do polegar entre outras aplicações.</p>
-<p>Sob medida</p>
-<h2>Ref.:O012</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 13.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Colete Milwalkee</h2>
-<p>indicado para o tratamnto de deformidades da coluna como escoliose, hipercifose ou hiperlordose em pacientes juvenis, com objetivo de estabilizar e corrigir a coluna vertebral. Feito sob medida.</p>
-<p>Sob medida</p>
-<h2>Ref.:O013</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 14.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Tala para polegar</h2>
-<p>Indicada no tratamento conservador no tratamento de rizartrose, mantendo o polegar em abdução e em descanso, usado também em torções, tendinites, instabilidade da articulação trapeziometacarpiana e lesões esportivas.</p>
-<p>Sob medida</p>
-<h2>Ref.:O014</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 15.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese Sarmiento de Una/rádio</h2>
-<p>Indicado no tratamento de fraturas da una, rádio e tambèm de punho, e no pós cirúrgico, permitindo movimentos do cotovelo evitando contratura da articulação.</p>
-<p>Sob medida</p>
-<h2>Ref.:O015</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 16.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese Sarmiento de Úmero</h2>
-<p>Utilizada no tratamento de fraturas diafisarias do úmero, permitindo completa mobilidade nas articulações do cotovelo, usado também em cirurgias do úmero</p>
-<p>Sob medida</p>
-<h2>Ref.:O016</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 17.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Suspensório de Pavlik</h2>
-<p>Indicado para tratamento de lixação congênita de quadril em recém nascido até 6 meses de idade. O Correto ajuste nas tiras permite limitar os graus de movimento dos quadris, mantendo em flexão e abdução e permitindo movimentos do bebê.</p>
-<p>Sob medida</p>
-<h2>Ref.:O017</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 18.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>òrtese Splint dinâmico (Palmar/Tala)</h2>
-<p>A órtese dinãmica para punhos e dedos é indicada para tração em flexão ou extensão. 
-        Permite movimentos ativos da musculatura funcional, eatravés dos tirantes permite movimentos passivos da musculatura paralisada.
-      
-      Pode ser utilizadas no pós operatório de cirurgias da mão, visando a mobilização gradual das articulações.</p>
-<p>Sob medida</p>
-<h2>Ref.:O018</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 19.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese Abdutor de Quadril</h2>
-<p>Também conhecida como (Atlanta Brace). Utilizada para manter os membros inferiores em abdução do quadril, diminuindo a carga no quadril e mantém as cabeças femurais centradas dentro dos acetábulos durante a deambulação, utilizada no tratamento de Legg Perthes.</p>
-<p>Sob medida</p>
-<h2>Ref.:O019</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 20.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese HKAFO</h2>
-<p>Conhecida também como pélvicopodalica ou tutor longo com cinto pélvico. Este tipo de órtese promove a estabilidade das regiões do quadril, joelho, tornozelo e pé. Tem como objetivo auxiliar e controlar os movimentos, promover a independência da marcha, possicionar as articulações dos membros inferiores, tendo como objetivo estimular o ortostatismo e a marcha.</p>
-<p>Sob medida</p>
-<h2>Ref.:O020</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 21.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese KAFO</h2>
-<p>Conhecida também como tutor longo ou cruropodálica, promobe estabilidade das articulações do joelho, tornozelo e pé. Feita sob medida, melhora no controle motor possivilitando maior independência durante a marcha e nas atividades da vida diária. Articulações variadas de controle mecânicos, manuais ou eletrônicos de acordo com a necessidade de cada paciente.</p>
-<p>Agende sua avaliação</p>
-<h2>Ref.:O021</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 22.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese Genu Valgo/Varo</h2>
-<p>Indicada no tratamento de desvios de joelho como Valgo/varo e também da tíbia, feito sob medida, em polipropileno e com distrator para ajuste da correção. Uso noturno.</p>
-<p>Sob medida</p>
-<h2>Ref.:O022</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 23.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Extensor dinâmico de joelho (Tala de Shade)</h2>
-<p>Indicada para tratamento de contraturas do joelho de forma dinâmica, exercendo força constante sobre o joelho obrigando a extensão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O023</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 24.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Imobilizador de joelho com graduação</h2>
-<p>Utilizados no pós operatório para cirurgia de ligamentos cruzados posterior ou anterior e também no ganho de extensão ou flexão em joelho com contraturas leves.</p>
-<p>Sob medida</p>
-<h2>Ref.:O024</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 25.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Extensor de joelho - Tipo Polaina</h2>
-<p>Confeccionada sob medida em tecido acolchoado e hastes rígidas, utilizadas para manter membros inferiores em extensão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O025</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 26.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Sarmiento para gratura de tíbia</h2>
-<p>Confeccionado sob medida para tratamento de fraturas da tíbia, permitindo movimentos das articulações de joelho e tornozelo. Leveza, resistência e mais higiênica que os modos convencionais em gesso.</p>
-<p>Sob medida</p>
-<h2>Ref.:O025</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 27.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Imobilizador de joelho</h2>
-<p>Feito sob medida, utilizados no pós operatório de ruptura de ligamentos, em casos de joelhos com desgaste da articulação e outras infermidades. Podendo ser livre ou com trava para bloqueio de flexão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O027</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 28.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Sandália Ortopédica</h2>
-<p>Confeccionado em couro, revestido com seda flex, sem costuras internas, maior establidade, auxílio na deambulação, preventivo contra ulcerações. Com bordas laterais para adaptar palmilha ortopédica.</p>
-<p>Sob medida</p>
-<h2>Ref.:O028</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 29.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Sapato Ortopédico</h2>
-<p>Confeccionado em couro, revestido internamente com seda flex, sem costuras internas, maior estabilidade, auxílio na deambulação, preventivo contra ulcerações. Podendo ser usado com palmilhas ortopédicas.</p>
-<p>Sob medida</p>
-<h2>Ref.:O029</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 30.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>órtese AFO dinâmica sistema revoflex</h2>
-<p>Melhora desenvolvimento muscular, reduz a dependência do dispositivo e permite a progressão em direção a amplitude total plantar ou dorsiflexão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O030</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 31.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese AFO metálica com bota</h2>
-<p>Indicada para fraqueza de membros inferiores que causam prejuízo da marcha ou que levem a deformidade como pé equino, pé calcâneo, instabilidade dos tornozelos e pés. Lesões ligamentares do tornozelo.</p>
-<p>Sob medida</p>
-<h2>Ref.:O031</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 32.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Bota Ortopédica</h2>
-<p>É um dispositivo ortopédico que imobiliza os pés, tornozelo, durante tratamento de alguma lesão, tratamento corretivo da marcha, correções de caro ou valgo de pés.</p>
-<p>Sob medida</p>
-<h2>Ref.:O032</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 33.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>òrtese AFO Walk on</h2>
-<p>Em fibra de carbono, fornece à órtese muita estabilidade e baixo peso. Projetada especialmente para conferir flexibilidade do retropé e no antepé, possibilita ao paciente uma marcha fisiológica e dinâmica.</p>
-<p>Sob medida</p>
-<h2>Ref.:O033</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 34.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese AFO articulada</h2>
-<p>Indicada para estabilização da medial e lateral do tornozelo, permitindo o bloqueio da flexão plantar. Pode ser confeccionada sem bloqueio ou com bloqueio de flexão plantar e dorsal livre.</p>
-<p>Sob medida</p>
-<h2>Ref.:O034</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 35.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese AFO fixa</h2>
-<p>Órtese fixa para estabilizar a marcha em equinovaro, indicada para pacientes com lesão de origem traumática ou neurológicas com paralisia da musculatura extensora do tornozelo e pé.</p>
-<p>Sob medida</p>
-<h2>Ref.:O035</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 36.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese AFO dinãmico sistema garrote</h2>
-<p>Melhor desenvolvimento muscular, reduz a dependência do dispositivo e permite a progressão em direção a amplitude total de movimento seja plantar ou dorsiflexão.</p>
-<p>Sob medida</p>
-<h2>Ref.:O036</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 37.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Órtese AFO mola de codiville</h2>
-<p>Auxilia na dorsiflexão, a porção anterior do pé é elevada e a limitação passiva e flexível da flexão plantar é fornecida em caso de fraqueza perineal.</p>
-<p>Sob medida</p>
-<h2>Ref.:O037</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 38.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>SMO - Órtese Supra Maleolar</h2>
-<p>O SMO tem como finalidade promover a estabilidade articular do tornozelo, neutralizando os desvios em pronação do retropé que ocorrem na articulação sub-talar, mantendo um posicionamento natural e anatômico.</p>
-<p>Sob medida</p>
-<h2>Ref.:O038</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 39.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Palmilhas Ortopédicas</h2>
-<p>As palmilhas ortopédicas são também propriocepticas, isto é, possuem a capacidade de reconhecer a posição e orientação do corpo, assim com a força exercida por ele, e fazem com que a distrivuição de carga seja dividida de forma correta por toda a planta do pé, melhorando a dor, equilíbrio e postura. Indicação: Fascite plantar, Esporão, Metatarsalgias, neuroma, discrepância entre pernas, Pés diabéticos, prevenção de lesões esportivasa, pés pronados e supinados, etc.</p>
-<p>Sob medida</p>
-<h2>Ref.:O039</h2>
-</div>
-<div class="card">
-<img src="imagens/ortese 30.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>òrtese de Dennis Brown</h2>
-<p>A órtese de Dennis Brown é utilizada no tratamento de pé torto congênito e permite manter os pés em rotação interna ou externa. É indicada normalmente após o uso de gesso para auxiliar na corrção da deformidade e alinhamento dos pés.</p>
-<p>Sob medida</p>
-<h2>Ref.:O008</h2>
-</div>
-<!-- Repita para outras orteses -->
-</div>
-<div class="menu categoria-produto" id="categoria-Proteses">
-<div class="card">
-<img src="imagens/protese 01.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Joelhos protéticos</h2>
-<p>A linha de joelhos para próteses vão do nacional ao importados. Joelhos que vão dos tradicionais mecânicos, pneumáticos e hidráulicos, e até os mais modernos joelhos computadorizados e alguns a prova d'água.</p>
-<h2>Ref.:P001</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 02.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Pés protéticos</h2>
-<p>Após uma amputação de perna, os pacientes desejam a certeza de que sua protetização lhes proporcionará o máximo de mobilidade e uma vida autodeterminada. Com uma ampla linha e tipos de pés nacionais e importados sendo articulados ou não e em fibras de carbono, tudo para um melhor desempenho e conforto.</p>
-<h2>Ref.:P002</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 03.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Próteses Esportivas</h2>
-<p>Atualmente, temos modelos de alta tecnologia para prática esportiva para pessoas que buscam e calorizam um estilo de vida ativa. Com joelhos e pés desenvolvidos com características de amortecimento na fase de balanço adaptadas para controlar as cadências de passadas altas.</p>
-<h2>Ref.:P003</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 04.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Prótese desarticulação de quadril</h2>
-<p>Para amputação onde se retira toda a perna. Sistema de encaixe por cesto pélvico e componentes de alta tecnologia para melhor reabilitação dando ênfase para uma boa fisioterapia.</p>
-<h2>Ref.:P004</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 05.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Prótese trantibiais</h2>
-<p>Para amputações ao nível do fêmur. Nas amputações transtibiais, pode ser dividida em três níveis: Proximal (curto), medial e distal (longo). Podem ser causadas por anomalias congênitas, traumas, eventos circulatórops ou tumores. Nas amputações transfemorais assim como nas outras, o envaixe é extremamente importante. Possui uma diversidade de joelhos e pés dos mais simples aos mais tecnológicos, e requer uma avaliação do técnico protético.</p>
-<h2>Ref.:P005</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 06.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Prótese Trantibial</h2>
-<p>Para amputação da perna ao nível tibial. Com vários sistemas de encaixe do tipo por pressão, apoio da prótese é dado no tendão infrapatelar e sistema'a vácuo ou com sistema de conecão distal ambos com encaixe interno em silicone ou uretano. Confeccionado em fibra de carbono e resina acrílica mais componentes em aço, titanium ou alumínio.</p>
-<h2>Ref.:P006</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 07.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Liner</h2>
-<p>Os liners são a base para que se tenha uma prótese ortopédica confortável e eficaz. Feita de um material flexível e acolchoado, muito parecido com uma meia, feito especialmente para o coto do amputado. Esse revestimento é fabricado com diferentes tipos de materiais como silicone, elastômero, poliuretano entreoutros. Há vários modelos e tamanhos que deve ser avaliados com cautela e precaução.</p>
-<h2>Ref.:P007</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 08.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Prótese Mioelétrica</h2>
-<p>O sistema de prótese mioelétrica é operado através de sensores com controle de abertura e fechamento pelos sensores mioelétricos.</p>
-<h2>Ref.:P008</h2>
-</div>
-<div class="card">
-<img src="imagens/protese 09.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Protese Mod1</h2>
-<p>Protese modelo 001</p>
-</div>
-<div class="card">
-<<img src="imagens/protese 10.jpeg" alt="Descrição" onclick="abrirModal(this.src)">
-<h2>Protese Mod1</h2>
-<p>Protese modelo 001</p>
-</div>
-<!-- Repita para outras Proteses -->
-</div>
-</div></div></section>
-<section class="aba" id="aba-Galeria">
-<div style="text-align: center;">
-<h2>
-      Galeria de Fotos
-      </h2>
-<div class="menu">
-<div class="card">
-<img alt="Produto 1" src="imagens/galeria/galeria1.jpeg"/>
-<h2>
-        Foto 01
-        </h2>
-</div>
-<div class="card">
-<img alt="Produto 2" src="imagens/galeria/galeria2.jpeg"/>
-<h2>
-        Foto 02
-        </h2>
-</div>
-<div class="card">
-<img alt="Produto 3" src="imagens/galeria/galeria3.jpeg"/>
-<h2>
-        Foto 03
-          </h2>
-</div>
-<div class="card">
-<img alt="Produto 3" src="imagens/galeria/galeria4.jpeg"/>
-<h2>
-        Foto 04
-        </h2>
-
-</div>
-<div class="card">
-<img alt="Produto 3" src="imagens/galeria/galeria5.jpeg"/>
-<h2>
-        Foto 05
-      </h2></div>
-<div class="card">
-<img alt="Produto 3" src="imagens/galeria/galeria6.jpeg"/>
-<h2>
-        Foto 06
-      </h2></div>
-<div class="card">
-<img alt="Produto 3" src="imagens/galeria/galeria7.jpeg"/>
-<h2>
-        Foto 07
-      </h2></div>
-</div>
-</div>
+    <div class="hero14-visual" role="img" aria-label="Pessoa caminhando com prótese moderna">
+      <span class="hero14-script">Tecnologia,<br>reabilitação<br>e qualidade<br>de vida.</span>
+      <span class="hero14-side">MOVIMENTO<br>TRANSFORMA<br>VIDAS</span>
+    </div>
+  </div>
+  <div class="hero14-wave" aria-hidden="true"></div>
 </section>
-<section class="aba" id="aba-depoimentos">
-<div class="depoimentos" style="text-align: center; padding: 2rem;">
-<h2>O que nossos clientes dizem</h2>
-<!-- Lista de depoimentos -->
-<div id="lista-depoimentos" style="margin-bottom: 2rem;">
-<div class="depoimento" style="margin: 1rem auto; max-width: 600px;">
-<p class="comentario" style="font-style: italic;">"Otímo Atendimento, produtos de alta qualidade"</p>
-<p class="cliente" style="font-weight: bold;">— Ana Paula ⭐⭐⭐⭐⭐</p>
-</div>
-</div>
-<!-- Formulário de novo depoimento -->
-<form id="form-depoimento" onsubmit="enviarDepoimento(event)" style="max-width: 600px; margin: 0 auto;">
-<h3 style="margin-bottom: 1rem;">Deixe seu depoimento</h3>
-<input id="depoimento-nome" placeholder="Seu nome" required="" style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text"/>
-<textarea id="depoimento-comentario" placeholder="Escreva seu comentário..." required="" style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
-<a href="https://wa.me/5537991600514?text=Gostaria%20de%20enviar%20um%20depoimento" target="_blank" class="botao-padrao">Enviar Depoimento</a>
 
-</form>
-</div>
+<section class="proof reveal"><div><b>Atendimento individual</b><small>Cada pessoa, uma necessidade</small></div><div><b>Planejamento personalizado</b><small>Conforto e funcionalidade</small></div><div><b>Contato direto</b><small>Agendamento pelo WhatsApp</small></div><div><b>Localização central</b><small>Rua Oeste de Minas, 40</small></div></section>
+<section class="section reveal" id="solucoes"><div class="heading"><div><span class="tag">SOLUÇÕES IPORTEC</span><h2>Soluções personalizadas para movimento, segurança e <em>autonomia.</em></h2></div><p>Cada prótese e órtese é definida a partir de avaliação individual. Conheça as possibilidades e converse com a equipe para entender qual caminho faz sentido para sua necessidade.</p></div><div class="choice"><article><img src="assets/img/protese.webp" alt="Prótese personalizada" width="1400" height="1050" loading="lazy" decoding="async"><div><span class="cardEyebrow">PRÓTESES</span><h3>Recupere possibilidades de movimento.</h3><p>Soluções desenvolvidas de forma individual, de acordo com anatomia, rotina e objetivos funcionais.</p><a href="proteses.html">Conhecer próteses →</a></div></article><article><img src="assets/img/ortese.webp" alt="Órtese personalizada" width="1400" height="1050" loading="lazy" decoding="async"><div><span class="cardEyebrow">ÓRTESES</span><h3>Mais suporte, estabilidade e conforto.</h3><p>Órteses planejadas conforme medidas e necessidades específicas para auxiliar no dia a dia.</p><a href="orteses.html">Conhecer órteses →</a></div></article></div></section>
+<section class="renewal reveal"><div><span class="tag">UM NOVO MOMENTO</span><h2>Uma nova IPORTEC está sendo preparada para <em>você.</em></h2><p>Estamos ampliando e modernizando nossa estrutura para oferecer ainda mais conforto, tecnologia e qualidade em nossos atendimentos.</p></div><div class="renewalMark"><strong>IPORTEC</strong><span>em evolução</span></div></section>
+<section class="conversionStrip reveal"><div><span>Não sabe por onde começar?</span><strong>Conte sua necessidade para a equipe IPORTEC.</strong></div><a class="btn light whatsapp" href="#">Conversar no WhatsApp →</a></section>
+
+<section class="about about15" id="quem-somos">
+  <div class="about15-copy reveal">
+    <span class="tag">QUEM SOMOS</span>
+    <h2>Cuidado técnico<br>com atenção a <em>cada pessoa.</em></h2>
+    <p data-about="historia"></p>
+    <p data-about="experiencia"></p>
+    <a class="btn about15-btn whatsapp" href="#">Falar com a equipe →</a>
+  </div>
+
+  <div class="about15-brand reveal" aria-label="IPORTEC Próteses e Órteses">
+    <div class="about15-rings" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="about15-logo">
+      <img src="assets/img/logo-iportec.jpg" alt="IPORTEC Próteses e Órteses" width="500" height="174" loading="lazy" decoding="async">
+    </div>
+  </div>
+
+  <div class="about15-values reveal">
+    <article>
+      <span class="about15-icon">♥</span>
+      <div><strong>Pessoas em primeiro lugar</strong><small>em tudo o que fazemos.</small></div>
+    </article>
+    <article>
+      <span class="about15-icon">⚙</span>
+      <div><strong>Tecnologia que faz diferença</strong><small>na funcionalidade e no dia a dia.</small></div>
+    </article>
+    <article>
+      <span class="about15-icon">✓</span>
+      <div><strong>Atendimento personalizado</strong><small>do primeiro contato aos ajustes.</small></div>
+    </article>
+    <article>
+      <span class="about15-icon">●</span>
+      <div><strong>Uma equipe preparada</strong><small>para caminhar com você.</small></div>
+    </article>
+    <div class="about15-script">Juntos<br>por novas<br>conquistas!</div>
+  </div>
+
+  <div class="credential about15-credential reveal">
+    <small>QUEM CUIDA DE VOCÊ</small>
+    <h3 data-about="responsavel"></h3>
+    <p data-about="formacao"></p>
+    <p data-about="equipe"></p>
+  </div>
 </section>
-<section class="aba" id="aba-Contato">
-<div style="text-align: center; padding: 30px;">
-<h2>Entre em contato conosco</h2>
-<h2>(37) 3213-5536 - (37) 9 9160-0514</h2>
-<p class="centralizado">Fale pelo WhatsApp:</p>
-<a class="botao-padrao" href="https://wa.me/5537991600514" target="_blank">
-          💬 Conversar no WhatsApp
-        </a>
-<h3 style="margin-top: 40px;">Localização da Loja</h3>
-<div style="text-align: center; margin-top: 20px;">
-<iframe allowfullscreen="" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1872.9092872039696!2d-44.884981089300446!3d-20.141615183064197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa0a5142d83dbd3%3A0x80ceaae2db9db96!2sIPORTEC%20Pr%C3%B3teses%20e%20%C3%93rteses!5e0!3m2!1spt-BR!2sbr!4v1754332267394!5m2!1spt-BR!2sbr" style="border:0;" width="600">
-</iframe>
-</div>
-<div style="text-align: center; margin-top: 10px;">
-<a class="botao-padrao" href="https://www.google.com/maps/dir/?api=1&amp;destination=IPORTEC+Pr%C3%B3teses+e+%C3%93rteses,+Divin%C3%B3polis,+MG" target="_blank">
-    🧭 Traçar Rota no Google Maps
-  </a>
-</div>
 
-
-</div>
-</section>
-<section class="aba" id="aba-Quem Somos">
-<div style="max-width: 900px; margin: 0 auto; padding: 2rem;">
-<h2 style="text-align: center; font-size: 2em; margin-bottom: 1rem;">
-      Quem Somos
-      </h2>
-<p style="text-align: justify; font-size: 1.1em; line-height: 1.8;">
-<strong>
-</strong> 
-      Com mais de 20 anos de experiência no mercado, a nossa empresa é referência em próteses e órteses na cidade de Divinópolis-MG e região. Atuamos com compromisso, ética e excelência no atendimento, oferecendo soluções personalizadas que promovem mobilidade, conforto e qualidade de vida aos nossos clientes.
-
-Nosso time é formado por profissionais qualificados, sempre atualizados com as mais recentes tecnologias e técnicas do setor ortopédico. Trabalhamos lado a lado com médicos, fisioterapeutas e outros profissionais da saúde para garantir o melhor resultado para cada paciente.
-
-<p>✅ <strong>Nossa Missão:</strong><br/>
-Proporcionar autonomia e bem-estar por meio de produtos ortopédicos de alta qualidade, adaptados às necessidades individuais de cada cliente.</p>
-<p>✅ <strong>Nossa Visão:</strong><br/>
-Ser reconhecida como a melhor empresa de próteses e órteses da região, valorizando o cuidado humano, a inovação e a confiança.</p>
-<p>✅ <strong>Nossos Valores:</strong><br/>
-
-✔️ Respeito à individualidade<br/>
-
-✔️ Compromisso com a qualidade<br/>
-
-✔️ Ética em todas as relações<br/>
-
-✔️ Inovação contínua<br/>
-
-✔️ Atendimento humanizado</p>
-</p>
-</div>
-</section>
-<footer>
-<footer style="text-align: center; padding: 20px;">
-<p>© 2025 Iportec - Todos os direitos reservados</p>
-<p><a href="mailto:contato@uniqverse.com">iportec@yahoo.com.br</a> | (37) 3213-5536 | (37) 99160-0514</p>
-</footer>
-</footer>
-
-
-<script src="scripts.js"></script>
-
-<div id="modalImagem" class="modal">
-  <span class="fechar" onclick="fecharModal()">&times;</span>
-  <img class="modal-conteudo" id="imagemAmpliada">
-</div>
-
-</body>
-</html>
+<section class="section trust reveal"><div class="heading"><div><span class="tag">POR QUE ESCOLHER A IPORTEC</span><h2>Confiança construída em <em>cada etapa.</em></h2></div><p>Do primeiro contato aos ajustes, o atendimento é pensado para ser claro, próximo e individual.</p></div><div class="trustGrid" id="diferenciais"></div></section>
+<section class="journey" id="atendimento"><div><span class="tag">COMO FUNCIONA</span><h2>Da primeira conversa ao acompanhamento.</h2><p>Um processo claro, individual e próximo para que você entenda cada etapa da sua solução.</p><a class="btn light whatsapp" href="#">Agendar primeira conversa →</a></div><ol></ol></section>
+<section class="section homeGallery reveal"><div class="heading"><div><span class="tag">NOSSO TRABALHO</span><h2>Detalhes que mostram o cuidado em <em>cada solução.</em></h2></div><p>A galeria será atualizada com trabalhos e registros autorizados da IPORTEC.</p></div><div class="galleryPreview" id="homeGallery"></div><a class="galleryLink" href="galeria.html">Ver galeria completa →</a></section>
+<section class="section testimonialsSection" id="testimonialsSection"><div class="heading"><div><span class="tag">DEPOIMENTOS</span><h2>Experiências de quem <em>confia na IPORTEC.</em></h2></div><p>Relatos publicados somente quando autorizados.</p></div><div class="testimonials" id="testimonials"></div></section>
+<section class="section faqSection" id="duvidas"><div class="heading"><div><span class="tag">DÚVIDAS FREQUENTES</span><h2>Informação clara para <em>decidir com segurança.</em></h2></div><p>Respostas rápidas sobre avaliação, atendimento, localização e soluções personalizadas.</p></div><div class="faqList" id="faqList"></div></section>
+<section class="location" id="localizacao"><div><span class="tag">IPORTEC EM DIVINÓPOLIS</span><h2>Fácil de encontrar. Fácil de <em>conversar.</em></h2><p data-company="atendimento"></p><div class="contactActions"><a class="btn whatsapp" href="#">Agendar pelo WhatsApp →</a><a class="btn ghost" id="mapLink" href="#" target="_blank" rel="noopener">Traçar rota →</a></div></div><div class="locationCard"><div class="locationBlock"><small>ENDEREÇO</small><strong data-company="endereco"></strong></div><div class="locationBlock"><small>TELEFONE / WHATSAPP</small><strong data-company="telefone"></strong></div><div class="locationBlock"><small>HORÁRIOS</small><div class="hoursList" id="hoursList"></div></div><div class="locationBlock"><small>INSTAGRAM</small><a class="instagramLink" href="https://www.instagram.com/iportecortopediatecnica/" target="_blank" rel="noopener">@iportecortopediatecnica →</a></div></div></section>
+<section class="cta reveal"><div><small>PRONTO PARA COMEÇAR?</small><h2>Seu atendimento pode começar agora.</h2><p>Envie uma mensagem e conte brevemente o que você procura.</p></div><a class="btn light whatsapp" href="#">Falar com a IPORTEC →</a></section>
+</main><div id="footer"></div><script src="assets/data/config.js"></script><script src="assets/js/script.js"></script></body></html>

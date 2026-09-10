@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# O sitemap e as URLs canonical/og:url serão adicionados após a definição do domínio oficial.
