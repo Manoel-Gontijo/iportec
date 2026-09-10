@@ -1,0 +1,19 @@
+IPORTEC — V20 FINAL DE PUBLICAÇÃO
+
+Para publicar, envie TODO o conteúdo desta pasta PUBLICAR para a hospedagem.
+
+Arquivos principais:
+- index.html
+- proteses.html
+- orteses.html
+- galeria.html
+- privacidade.html
+- robots.txt
+- assets/
+
+Antes de anunciar oficialmente:
+1. Abra todas as páginas no computador e no celular.
+2. Teste os botões do WhatsApp.
+3. Teste Instagram e Traçar rota.
+4. Confirme endereço, telefone e horários.
+5. Quando o domínio oficial estiver definido, completar canonical, Open Graph absoluto e sitemap.xml.
