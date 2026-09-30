@@ -4,7 +4,7 @@ window.IPORTEC_CONFIG={
     "email": "",
     "cidade": "Divinópolis - MG",
     "endereco": "Rua Oeste de Minas, 40 - Centro, Divinópolis - MG, 35500-022",
-    "horario": "Segunda 08:00–15:30 • Terça a quinta 08:00–17:30 • Sexta 08:00–17:00 • Sábado e domingo: fechado",
+    "horario": "Segunda 08:00–17:30 • Terça a quinta 08:00–17:30 • Sexta 08:00–17:00 • Sábado e domingo: fechado",
     "instagram": "@iportecortopediatecnica",
     "chamada": "Movimento, autonomia e qualidade de vida.",
     "atendimento": "Atendimento presencial em Divinópolis. Para maior comodidade, agende sua avaliação pelo WhatsApp.",
@@ -12,7 +12,7 @@ window.IPORTEC_CONFIG={
     "horarios": [
       {
         "dia": "Segunda-feira",
-        "horario": "08:00–15:30"
+        "horario": "08:00–17:30"
       },
       {
         "dia": "Terça-feira",
